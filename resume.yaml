@@ -1,0 +1,18 @@
+employment:
+  - title: Quantum Software Engineer
+    company: AWS Center for Quantum Computing
+    dates: August 2023 - Present
+    description: Developed software and control hardware to support AWS's mission to create a fault-tolerant quantum computer. 
+  - title: Head Teaching Assistant
+    company: Caltech
+    dates: September 2020 - June 2023
+    description: Head teaching assistant for CS 1 (Introduction to Computer Programming), CS 4 (Fundamentals in Computer Programming), CS 132 (Web Development), CS 121 (Relational Databases), and SA 16 (Cooking Basics).
+  - title: Chief Technology Officer
+    company: MG Venture, LLC.
+    dates: October 2029 - January 2023
+    description: Worked with investors and business partners to support the development of iOS and web applications for a variety of customers and business objectives.
+
+education:
+  - degree: B.S. Physics
+    institution: California Institute of Technology
+    year: 2023
