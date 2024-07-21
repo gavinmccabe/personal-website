@@ -27,6 +27,9 @@ jobs:
     Create-Cloudfront-Invalidation:
         runs-on: ubuntu-latest
         steps:
+            - name: Checkout Repository
+              uses: actions/checkout@v4.1.7
+
             - name: Configure AWS Credentials
               uses: aws-actions/configure-aws-credentials@v4.0.2
               with:
