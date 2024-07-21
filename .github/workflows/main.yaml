@@ -25,6 +25,7 @@ jobs:
               run: aws s3 cp . s3://gavinmccabe-personal-site/ --recursive --exclude ".*" --exclude "*/.*"
 
     Create-Cloudfront-Invalidation:
+        needs: Upload-To-S3
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Repository
